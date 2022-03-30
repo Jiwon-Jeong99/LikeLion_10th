@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+    margin: 200px;
+}
+
+.layout-container {
+    display: flex;
+    /* 수직정렬 */
+    flex-direction: column;
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+/* justify-content는 container 속성 */
+.layout-title {
+    display: flex;
+    justify-content: center;
+    flex-basis: 13%;
+}
+
+.title {
+    background-color: red;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* recent가 item이고 layout-recent가 container */
+.layout-recent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 28%;
+}
+
+/* container말고 item 자체에 색깔을 먹인 것 */
+/* 크기가 다 1대1이기 때문에 flex-basis 안줘도됨 */
+.recent {
+    background-color: yellow;
+    width: 23.16%;
+    display: flex;
+    justify-content: center;
+    /* 가로축, 세로축 모두 중앙정렬 */
+    align-items: center;
+}
+
+.layout-popular {
+   display: flex;
+   justify-content: space-evenly;
+   flex-basis: 53%;
+}
+
+.popular {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular1 {
+    flex-basis: 72%;
+}
+
+.popular2 {
+    flex-basis: 23%;
+}
