@@ -1,4 +1,7 @@
 # # 리스트 - 순서대로 차곡차곡
+from traceback import print_list
+
+
 item_list = ["지원", "민서", "동길", "해윤", "교현"]
 
 # new_data = []
@@ -14,6 +17,13 @@ for n in num_list:
     if n%2 == 0:
         new_data.append(n)
 print(new_data)
+
+str = '지원 해윤 동길 교현 민서'
+
+if "지원" in str:
+    print("지원이가 있대")
+else:
+    print("없다는데?")
 
 # print(item_list[0])
 
