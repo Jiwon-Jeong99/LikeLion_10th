@@ -1,3 +1,16 @@
+# - 프레임워크는 언어가 아님
+# - 장고-외국 스타트업 / 노드-한국 스타트업
+
+# ### **API**
+
+# - 해당 정보를 주세요 → 요청
+# - 서버에 데이터들을 만들어놓는 것 → 백엔드
+
+# pip3 install requests
+
+# → requests라는 파이썬 모듈을 install
+
+
 # # 리스트 - 순서대로 차곡차곡
 from traceback import print_list
 
